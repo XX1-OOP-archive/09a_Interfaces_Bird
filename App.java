@@ -1,6 +1,11 @@
 public class App {
     public static void main(String[] args) {
-       // toDo
+       
+        Bird bird = new Bird();
+        ausgabe(bird.fly());
+        ausgabe(bird.hasFeathers());
+
+
     }
 
     private static void ausgabe(String outStr) {
