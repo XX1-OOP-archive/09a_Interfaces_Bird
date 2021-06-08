@@ -5,7 +5,6 @@ public class App {
         ausgabe(bird.fly());
         ausgabe(bird.hasFeathers());
 
-
     }
 
     private static void ausgabe(String outStr) {
